@@ -20,4 +20,9 @@ test:
   <<: *default
   database: db/test.sqlite3
 
-production: adapter: postgresql username: postgres password: root host: localhost encoding: unicode 
+production: 
+  adapter: postgresql 
+  username: postgres 
+  password: root 
+  host: localhost 
+  encoding: unicode 
